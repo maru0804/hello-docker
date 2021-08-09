@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: hello-docker@v1
+        uses: actions/hello-docker@v1
         with:
           who-to-greet: 'Mona the Octocat'
       # `hello` ステップからの出力を使用する
