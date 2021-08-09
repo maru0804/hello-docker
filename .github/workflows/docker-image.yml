@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: maru0804/hello-docker/action.yaml
+        uses: maru0804/hello-docker/action.yaml@v2
         with:
           who-to-greet: 'Mona the Octocat'
       # `hello` ステップからの出力を使用する
