@@ -12,7 +12,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: maru0804/hello-docker
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
       - name: Hello world action step
         id: hello
         uses: ./maru0804/hello-docker/action.yaml@master
